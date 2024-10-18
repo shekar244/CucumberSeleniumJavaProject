@@ -57,9 +57,11 @@ public class LoginPageStepDef {
         Assert.assertTrue(loginPage.isLogoutLinkDisplayed());
     }
 
-    @Then("I should see an error message indicating {string}")
-    public void iShouldSeeAnErrorMessageIndicating(String arg0, String arg1) {
+    @Then("I should see an error message indicating error message")
+    public void iShouldSeeAnErrorMessageIndicatingErrorMessage() {
         // Add assertions to verify error message
         Assert.assertTrue(loginPage.isErrorMessageDisplayed());
     }
+
+
 }
