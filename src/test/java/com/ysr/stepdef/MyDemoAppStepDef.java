@@ -41,14 +41,6 @@ public class MyDemoAppStepDef {
         if(appiumdriver != null)   // Quit the WebDriver instance
             appiumdriver.quit();
     }
-
-//          @Given("I have launched the Mydemo IOS APP")
-//        public void iHaveLaunchedTheMydemoIOSAPP() {
-//            // Write code here that turns the phrase above into concrete actions
-//
-//
-//        }
-
         @Given("I have entered a valid userid and password")
         public void i_have_entered_a_valid_userid_and_password () {
             // Write code here that turns the phrase above into concrete actions
