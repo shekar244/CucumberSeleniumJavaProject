@@ -1,6 +1,4 @@
 package com.ysr.stepdef;
-import com.ysr.App;
-import com.ysr.pages.LoginPage;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.ios.IOSDriver;
@@ -14,9 +12,8 @@ import io.cucumber.java.en.When;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.time.Duration;
 
-public class MyDemoAppStepDef {
+public class MyDemoMobileAppStepDef {
 
 
     XCUITestOptions options = new XCUITestOptions()
@@ -27,7 +24,7 @@ public class MyDemoAppStepDef {
             .connectHardwareKeyboard().setConnectHardwareKeyboard(true);
    AppiumDriver  appiumdriver = new IOSDriver(new URL("http://127.0.0.1:4723"), options);
 
-    public MyDemoAppStepDef() throws MalformedURLException {
+    public MyDemoMobileAppStepDef() throws MalformedURLException {
     }
 
     @Before

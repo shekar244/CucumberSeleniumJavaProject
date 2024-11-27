@@ -8,6 +8,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
 
 public class LoginPageStepDef {
@@ -19,6 +20,10 @@ public class LoginPageStepDef {
     @Before
     public void setUp() {
         // Set up the WebDriver instance and initialize the LoginPage object
+//        DesiredCapabilities capabilities = new DesiredCapabilities();
+//        capabilities.setCapability("browserName", "chrome");
+//        capabilities.acceptInsecureCerts();
+//        capabilities.setCapability(s);
         driver = new ChromeDriver();
     }
     @After
