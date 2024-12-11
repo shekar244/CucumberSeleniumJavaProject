@@ -17,6 +17,7 @@ public class LoginPageStepDef {
     // and perform actions on the login page
     private WebDriver driver;
     private LoginPage loginPage;
+    String TestURL = "https://naveenautomationlabs.com/opencart/index.php?route=account/login";
     @Before
     public void setUp() {
         // Set up the WebDriver instance and initialize the LoginPage object
@@ -34,7 +35,7 @@ public class LoginPageStepDef {
 
     @Given("I am on the opencart login page")
     public void i_am_on_the_opencart_login_page() {
-        driver.get("https://naveenautomationlabs.com/opencart/index.php?route=account/login");
+        driver.get(TestURL);
         loginPage = new LoginPage(driver);
     }
     @Given("I have entered a valid username and password")

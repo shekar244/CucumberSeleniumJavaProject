@@ -13,5 +13,6 @@ public class MyTest extends BaseTest {
         String title = driver.getTitle();
         logger.debug("Page title is: " + title);
         Assert.assertEquals(title, "Google");
+
     }
 }
