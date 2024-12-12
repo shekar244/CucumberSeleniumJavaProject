@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.FindBy;
 
+import java.sql.Connection;
 import java.time.Duration;
 //for testing out the webdriver manager from Bonigarcia //
 public class DriverManager {
@@ -22,4 +23,5 @@ public class DriverManager {
         driver.quit();
 
     }
+
 }
