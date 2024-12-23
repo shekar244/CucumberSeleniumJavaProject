@@ -1,16 +1,11 @@
 package Others;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.safari.SafariDriver;
-import org.openqa.selenium.support.FindBy;
 
-import java.sql.Connection;
 import java.time.Duration;
 //for testing out the webdriver manager from Bonigarcia //
-public class DriverManager {
+public class ImplicitWaitTest {
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = WebDriverManager.chromedriver().create();
         driver.manage().window().maximize();
