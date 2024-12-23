@@ -1,4 +1,4 @@
-package com.ysr.Exercises;
+package com.ysr.Exercises.StringManupulations;
 
 import java.util.Locale;
 
@@ -15,7 +15,6 @@ public class VovelConstCountInString {
             else if (s.charAt(i)>='a' && s.charAt(i)<='z')
             {
                 cConst++;
-
             }
         }
         System.out.println("Count of Vovel :"+ cVovel);
