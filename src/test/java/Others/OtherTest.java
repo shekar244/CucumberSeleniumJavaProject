@@ -1,6 +1,7 @@
 package Others;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.AbstractDriverOptions;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.safari.SafariOptions;
@@ -11,10 +12,11 @@ public class OtherTest {
 //        capabilities.setCapability("browserName", "safari");
 //        capabilities.setCapability("platform", "macos");
 //        WebDriver driver = new SafariDriver(capabilities);
-        AbstractDriverOptions options;
-        options = new SafariOptions();
-        options.setAcceptInsecureCerts(true);
-        WebDriver driver = new SafariDriver((SafariOptions) options);
+//        AbstractDriverOptions options;
+//        options = new SafariOptions();
+//        options.setAcceptInsecureCerts(true);
+//        WebDriver driver = new SafariDriver((SafariOptions) options);
+        WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
 
         driver.get("https://www.google.ca");
