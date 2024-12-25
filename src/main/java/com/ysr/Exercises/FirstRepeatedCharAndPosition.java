@@ -1,4 +1,4 @@
-package com.ysr.Exercises.StringManupulations;
+package com.ysr.Exercises;
 
 public class FirstRepeatedCharAndPosition{
 

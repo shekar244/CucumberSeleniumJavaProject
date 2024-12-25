@@ -1,4 +1,4 @@
-package com.ysr.Exercises.StringManupulations;
+package com.ysr.Exercises;
 
 import java.util.*;
 import java.lang.*;
