@@ -1,6 +1,7 @@
 package com.ysr.Exercises.Lambdas;
 
 import java.util.Random;
+import java.util.function.Function;
 import java.util.function.IntBinaryOperator;
 
 public class Main {
@@ -22,5 +23,6 @@ public class Main {
             return x+y+randomnumber;
         };
         System.out.println(calculator.applyAsInt(2,4));
+
     }
 }
