@@ -1,4 +1,4 @@
-package com.ysr.Exercises;
+package com.ysr.Exercises.Others;
 
 import org.jboss.aerogear.security.otp.Totp;
 
