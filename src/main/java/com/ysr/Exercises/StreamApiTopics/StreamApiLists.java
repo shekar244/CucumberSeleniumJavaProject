@@ -13,6 +13,10 @@ public class StreamApiLists {
         sb.append("Reddy");
         System.out.println(sb);
         List<String> ls = new ArrayList<>();
+        ls.add("laxmi");
+        ls.add("Maduri");
+        System.out.println(ls);
+        ls.forEach(s -> System.out.println(s));
 
 
 

@@ -6,11 +6,11 @@ import java.util.stream.Stream;
 
 public class CharsManupulationUsingStreamAPI {
     public static void main(String[] args) {
-        String name = "ShEkar reddy";
+        String name = "Shekar reddy";
         char[] data = name.toCharArray();
         Stream<Character> characterStream = name.chars()
                 .mapToObj(n->(char)n).sorted();
-        characterStream.distinct().forEach(System.out::println);
+        //characterStream.distinct().forEach(System.out::println);
 
         int vovelCount=0;
         int consonantsCount=0;
